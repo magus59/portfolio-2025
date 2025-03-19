@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import CardComponent from "../components/CardComponent";
-import microservices from "../assets/images/diagn.png";
+import microservices from "../assets/images/diagn3.png";
 import saori from "../assets/images/saori.png";
 
 
@@ -23,7 +23,7 @@ const About = () => {
       date="Janvier à Juin 2025"
       paragraph="J'ai développé une application web en microservices avec Spring Boot et Java. Elle inclut un dictionnaire médical, la gestion des cas cliniques et une recherche avancée par symptômes. Mon objectif été de rendre l'outil performant, intuitif et utile aux étudiants en médecine."
       imageSrc={microservices}
-      navigateTo="/"
+      navigateTo="/diagnostic"
     />
       <CardComponent
       title="Saori Consulting"
@@ -33,9 +33,7 @@ const About = () => {
       imageSrc={saori}
       link="https://creative-blancmange-d15c81.netlify.app/"
     />
-      <CardComponent />
-      <CardComponent />
-      <CardComponent />
+  
     </div>
   );
 };
