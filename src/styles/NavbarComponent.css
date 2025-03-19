@@ -1,0 +1,77 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 50px;
+  z-index: 4;
+  padding-top: 10px;
+}
+
+#burgerMenu {
+  display: none;
+}
+
+.name-carre2 {
+  display: none;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(15, 100, 228);
+}
+
+nav h2 {
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.name-carre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.carre {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(15, 100, 228);
+  margin-right: 10px;
+}
+
+@media (width <= 865px) {
+  #burgerMenu {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .name-carre2 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
