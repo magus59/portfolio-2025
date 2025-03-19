@@ -1,5 +1,5 @@
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -7,9 +7,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  padding: 0 50px;
+  padding: 10px 50px;
   z-index: 4;
-  padding-top: 10px;
+  background-color: #fff;
 }
 
 #burgerMenu {

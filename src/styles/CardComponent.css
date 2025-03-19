@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 900px;
+  height: 300px;
+  margin: 70px 0;
+  background-color: #ffffff;
+}
+
+.paragrapheProjet {
+  width: 340px;
+}
+
+.tecno {
+  color: rgb(15, 100, 228);
+  font-size: 14px;
+}
+
+#microservices {
+  height: 300px;
+  width: auto;
+  cursor: pointer;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.date {
+  color: rgb(33, 63, 228);
+}

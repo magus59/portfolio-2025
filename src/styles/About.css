@@ -1,0 +1,21 @@
+.aboutGlobal{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c0bcb4;
+    height: 100%;
+}
+
+.aboutP{
+    margin-top: 50px;
+    width: 700px;
+    text-align: center;
+}
+
+.titleAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
