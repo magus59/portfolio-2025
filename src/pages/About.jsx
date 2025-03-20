@@ -3,6 +3,8 @@ import "../styles/About.css";
 import CardComponent from "../components/CardComponent";
 import microservices from "../assets/images/diagn3.png";
 import saori from "../assets/images/saori.png";
+import portfolioYahia from "../assets/images/portfolioYahia.png";
+import diagassist from "../assets/images/diagassist.png";
 
 
 const About = () => {
@@ -23,6 +25,22 @@ const About = () => {
       date="Janvier à Juin 2025"
       paragraph="J'ai développé une application web en microservices avec Spring Boot et Java. Elle inclut un dictionnaire médical, la gestion des cas cliniques et une recherche avancée par symptômes. Mon objectif été de rendre l'outil performant, intuitif et utile aux étudiants en médecine."
       imageSrc={microservices}
+      navigateTo="/diagnostic"
+    />
+      <CardComponent
+      title="Portfolio"
+      spanText="React"
+      date="Mars 2025"
+      paragraph="J’ai développé mon portfolio en React avec GSAP pour des animations fluides et dynamiques. J’ai utilisé Vite pour optimiser le projet et structuré mes composants de manière modulaire. "
+      imageSrc={portfolioYahia}
+      navigateTo="/diagnostic"
+    />
+      <CardComponent
+      title="Diagnostic Assistance"
+      spanText="React & Node.js"
+      date="septembre à 2024"
+      paragraph="J’ai développé une application web d'aide au diagnostic pour les professionnels de la santé en React, Node js et MySQL pour mon projet DWWM."
+      imageSrc={diagassist}
       navigateTo="/diagnostic"
     />
       <CardComponent

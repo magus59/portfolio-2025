@@ -2,7 +2,15 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/CardComponent.css";
 
-const CardComponent = ({ title, spanText, paragraph, imageSrc, date, link, navigateTo }) => {
+const CardComponent = ({
+  title,
+  spanText,
+  paragraph,
+  imageSrc,
+  date,
+  link,
+  navigateTo,
+}) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -22,13 +30,15 @@ const CardComponent = ({ title, spanText, paragraph, imageSrc, date, link, navig
         <div className="date">{date}</div>
         <p className="paragrapheProjet">{paragraph}</p>
       </div>
-      <img
-        id="microservices"
-        src={imageSrc}
-        alt="image du projet"
-        onClick={handleClick}
-        style={{ cursor: "pointer" }}
-      />
+      <div className="microserv">
+        <img
+          id="microservices"
+          src={imageSrc}
+          alt="image du projet"
+          style={{ cursor: "pointer" }}
+        />
+        <div className="card-transparent" onClick={handleClick}>ENTRER</div>
+      </div>
     </div>
   );
 };

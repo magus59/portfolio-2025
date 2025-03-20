@@ -13,7 +13,7 @@ const NavbarComponent = () => {
         <div>
           <Link to="/">A propos de moi</Link>
           <Link to="/about">Projets</Link>
-          <Link to="/about">Technos</Link>
+          <Link to="/technos">Technos</Link>
           <Link to="/about">Contact</Link>
         </div>
       </nav>

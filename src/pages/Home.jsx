@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/Home.css";
-import yahia from "../assets/images/y.svg";
+// import yahia from "../assets/images/y.svg";
 import telecharger from "../assets/images/telecharger.png";
 import github from "../assets/images/git.svg";
 import lin from "../assets/images/in.svg";
@@ -31,7 +31,8 @@ const Home = () => {
       <div className="global">
         <div className="cadre"></div>
         <div className="img">
-          <img id="yahia" src={yahia} alt="photos yahia" />
+          <div className="rond"></div>
+          {/* <img id="yahia" src={yahia} alt="photos yahia" /> */}
           <div className="name">
             <p className="mabchour">Yahia Mabchour</p>
             <div className="line"></div>
@@ -44,7 +45,7 @@ const Home = () => {
           </div>
         </div>
         <div className="img-btn">
-          <h2 className="card-title1">HELLO</h2>
+          <h2 className="card-title1">Hello</h2>
           <h3 className="card-title2">Mon parcours et mes projets</h3>
           <div className="btn">
             <button className="cv">
